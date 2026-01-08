@@ -62,10 +62,6 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.3.0</version>
-          <configuration>
-            <useFile>false</useFile>
-            <printSummary>true</printSummary>
-          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
