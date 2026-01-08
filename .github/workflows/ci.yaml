@@ -1,7 +1,9 @@
 name: ci-java-maven-workflow
 on: ["push"]
 jobs:
-  runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
+  
   steps:
     - uses: actions/checkout@v5
 
