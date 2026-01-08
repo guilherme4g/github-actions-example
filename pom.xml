@@ -63,8 +63,9 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.3.0</version>
           <configuration>
+            <verbose>10</verbose>
+            <useFile>false</useFile>
             <printSummary>true</printSummary>
-            <reportFormat>brief</reportFormat>
           </configuration>
         </plugin>
         <plugin>
