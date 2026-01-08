@@ -14,4 +14,4 @@ jobs:
           distribution: 'zulu'
 
       - name: Unit Tests
-        run: mvn test
+        run: mvn -X test
